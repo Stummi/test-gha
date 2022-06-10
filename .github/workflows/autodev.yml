@@ -8,6 +8,6 @@ on:
 
 jobs:
   autodev:
-    uses: Staffbase/gha-workflows/.github/workflows/template_autodev.yml@main
+    uses: Staffbase/gha-workflows/.github/workflows/template_autodev.yml@various-improvements
     secrets:
       token: ${{ secrets.GITHUB_TOKEN }}
